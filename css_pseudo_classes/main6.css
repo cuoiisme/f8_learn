@@ -11,12 +11,18 @@
     background-color: green;
 } */
 /* VD về active */
-.box {  
+/* .box {  
     width: 100%;
     height: 120px;
     background-color: rgb(190,124,157);
 }
 .box:active {
     background-color: green;
-    
+} */
+/* VD về first-child */
+li:first-child {
+    color: green;
+}
+li:last-child {
+    color: green;
 }
