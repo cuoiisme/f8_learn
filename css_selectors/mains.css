@@ -1,0 +1,24 @@
+.first-heading {
+    color: red;
+}
+.second-heading {
+    color: green;
+    font-size: 20px;
+}
+.title1.heading {
+    color: aqua;
+}
+.box .title {
+    color: red;
+}
+h1.title2 {
+    color: aquamarine;
+}
+.box > .heading1 {
+    color: red;
+}.title4+.title4 {
+    color: red;
+}
+.title5 ~ .title5 {
+    color: red;
+}

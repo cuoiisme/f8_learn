@@ -1,0 +1,21 @@
+/* VD về :hover */
+/* h1:hover {
+    color: green;
+}
+.box {  
+    width: 100%;
+    height: 120px;
+    background-color: rgb(190,124,157);
+}
+.box:hover {
+    background-color: green;
+} */
+/* VD về active */
+.box {  
+    width: 100%;
+    height: 120px;
+    background-color: rgb(190,124,157);
+}
+.box:active {
+    background-color: green;
+}
