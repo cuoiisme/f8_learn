@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format.png); 
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top 20px right 20px ;
+    /* background-position: 30px 100px; */
+}
