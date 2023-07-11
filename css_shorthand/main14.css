@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+/* .header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format.png); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
+/* CÚ PHÁP SHORTHAND */
+.header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format.png) no-repeat center / contain;
+}
