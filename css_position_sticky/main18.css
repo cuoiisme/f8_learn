@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+ul {
+    height: 2000px;
+}
+h1 {
+    color: white;
+    background-color: black;
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+}
