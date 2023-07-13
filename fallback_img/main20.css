@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+}
+.header {
+    width: 100px;
+    height: 100px;
+    background-size: 100%;
+    background-image: url('https://vcdn1-dulich.vnecdn.net/2021/07/16/3-1-1626444927.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=KU8IkmrM5HbtYIyyS5k1qQ'),
+    url('https://via.placeholder.com/200x200');
+    background-repeat: no-repeat;
+}
