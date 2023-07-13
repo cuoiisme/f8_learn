@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .box {
+    background-color: green;
+    height: 100px;
+}
+h3 {
+    text-align: center;
+    line-height: 100px;
+} */
+/* ĐẶT BIẾN */
+/* .box {
+    --height: 100px;
+    background-color: green;
+    height: var(--height);
+    text-align: center;
+}
+h3 {
+    line-height: var(--height);
+} */
+/* CÁCH NGẮN GỌN */
+/* .box {
+    background-color: green;
+    height: 100px;
+    display: flex;
+}
+h3 {
+    margin: auto;
+} */
+/* CÁCH KHÁC */
+/* .box {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    dính sát vào nhau
+    justify-content: space-around;
+    căn đều ra 
+}*/
+/* CÁCH KHÁC */
+/* .box {
+    background-color: green;
+    position: relative;
+    height: 100px;
+}
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); */
+    /* VIỆT GỌN */
+    /* transform: translate(-50%, -50%); */
+/* } */
+.box {
+    height: 100px;
+    background-color: orange;
+    display: flex;
+    position: relative;
+}
+h3 {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h3::after {
+    position: absolute;
+    left: -10px;
+    content: "";
+    border-left: 3px solid #333;
+    height: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
