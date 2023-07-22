@@ -1,11 +1,33 @@
 .PC, .tablet, .mobile {
+    display: none;
     font-size: 68px;
     text-align: center;
 }
 
-@media (max-width: 800px) {
-    .PC, .tablet, .mobile {
-        font-size: 68px;
-        color: red;
+/* BREAK POINT */
+/* PC */
+@media (min-width: 1024px) {
+    .PC {
+        display: block;
     }
 }
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .tablet {
+        display: block;
+    }
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+    .mobile {
+        display: block;
+    }
+}
+
+/* 
+    PC:     >= 1024px
+    Tablet: >=740px & < 1024px
+    Mobile: < 740px
+*/
