@@ -1,0 +1,11 @@
+.PC, .tablet, .mobile {
+    font-size: 68px;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .PC, .tablet, .mobile {
+        font-size: 68px;
+        color: red;
+    }
+}
